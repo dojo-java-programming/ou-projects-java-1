@@ -1,0 +1,10 @@
+# General
+tmp/
+
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
