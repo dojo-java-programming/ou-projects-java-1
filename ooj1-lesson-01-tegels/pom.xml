@@ -8,12 +8,12 @@
 		<version>0.1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>lesson-01-verkiezingen</artifactId>
+	<artifactId>ooj1-lesson-01-tegels</artifactId>
 
 	<dependencies>
 		<dependency>
 			<groupId>nl.ou.oo-java</groupId>
-			<artifactId>verkiezingen</artifactId>
+			<artifactId>tegels</artifactId>
 		</dependency>
 	</dependencies>
 

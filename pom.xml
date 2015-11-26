@@ -9,8 +9,8 @@
 	<name>Open Universiteit - Object Oriented Programming in Java</name>
 	
 	<modules>
-		<module>lesson-01-tegels</module>
-		<module>lesson-01-verkiezingen</module>
+		<module>ooj1-lesson-01-tegels</module>
+		<module>ooj1-lesson-01-verkiezingen</module>
 	</modules>
 
 	<dependencyManagement>
