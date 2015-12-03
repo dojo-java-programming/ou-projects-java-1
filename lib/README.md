@@ -6,12 +6,22 @@ through a Maven repository. So they need to be imported manually to the local Ma
 The Maven configuration file `pom.xml`, in this directory, is set up for installing these jars,
 in the local Maven repository.
 
+
+## Action Plan
+
+### From the Command Line
+
 Use the following Maven commands to do so.
 
 __WARNING:__ Run them separate, not both profiles combined.
 
 	mvn  -P install-tegels  initialize  
 	mvn  -P install-verkiezingen  initialize  
+
+
+### Through Eclipse
+
+TODO
 
 
 ## Background
