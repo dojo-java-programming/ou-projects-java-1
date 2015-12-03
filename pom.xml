@@ -11,6 +11,23 @@
 	<modules>
 		<module>ooj1-lesson-01-tegels</module>
 		<module>ooj1-lesson-01-verkiezingen</module>
+		<module>ooj1-lesson-03-lijsten</module>
+		<module>ooj1-lesson-03-verkiezingen</module>
+		<module>ooj1-lesson-04-componenten</module>
+		<module>ooj1-lesson-04-swing-demo</module>
+		<module>ooj1-lesson-06-bibliotheek</module>
+		<module>ooj1-lesson-06-rekening</module>
+		<module>ooj1-lesson-07-rekening</module>
+		<module>ooj1-lesson-09-maan</module>
+		<module>ooj1-lesson-11-breuk</module>
+		<module>ooj1-lesson-12-game-of-life</module>
+		<module>ooj1-lesson-12-main-met-args</module>
+		<module>ooj1-lesson-12-string-tests</module>
+		<module>ooj1-lesson-13-dobbelsteen</module>
+		<module>ooj1-lesson-13-schrikkel-test</module>
+		<module>ooj1-lesson-13-som-test</module>
+		<module>ooj1-lesson-14-dobbelsteen</module>
+		<module>ooj1-lesson-14-yahtzee</module>
 	</modules>
 
 	<dependencyManagement>
