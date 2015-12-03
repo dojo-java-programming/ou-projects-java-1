@@ -6,7 +6,7 @@
 	<artifactId>oo-java-1-parent-pom</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Open Universiteit - Object Oriented Programming in Java</name>
+	<name>Open Universiteit - Object Oriented Programming in Java 1</name>
 	
 	<modules>
 		<module>ooj1-lesson-01-tegels</module>
@@ -58,5 +58,11 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+		</plugins>
 	</build>
 </project>
