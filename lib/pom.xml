@@ -1,0 +1,78 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>nl.ou.oo-java</groupId>
+	<artifactId>oo-java-1-parent-pom-import</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Open Universiteit - Object Oriented Programming in Java</name>
+
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+	
+	<profiles>
+		<profile>
+			<id>install-tegels</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-install-plugin</artifactId>
+						<version>2.5.2</version>
+						<executions>
+							<execution>
+								<id>install-tegels-jar</id>
+								<phase>initialize</phase>
+								<goals>
+									<goal>install-file</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<file>tegels.jar</file>
+							<groupId>nl.ou.oo-java</groupId>
+							<artifactId>tegels</artifactId>
+							<packaging>jar</packaging>
+							<version>1.0.0</version>
+							<generatePom>true</generatePom>
+							<updateReleaseInfo>true</updateReleaseInfo>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>install-verkiezingen</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-install-plugin</artifactId>
+						<version>2.5.2</version>
+						<executions>
+							<execution>
+								<id>install-verkiezingen-jar</id>
+								<phase>initialize</phase>
+								<goals>
+									<goal>install-file</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<file>verkiezingen.jar</file>
+							<groupId>nl.ou.oo-java</groupId>
+							<artifactId>verkiezingen</artifactId>
+							<packaging>jar</packaging>
+							<version>1.0.0</version>
+							<generatePom>true</generatePom>
+							<updateReleaseInfo>true</updateReleaseInfo>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>
