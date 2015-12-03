@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>nl.ou.oo-java</groupId>
-	<artifactId>oo-java-1-parent-pom-import</artifactId>
+	<artifactId>oo-java-1-install-jars</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Open Universiteit - Object Oriented Programming in Java</name>
