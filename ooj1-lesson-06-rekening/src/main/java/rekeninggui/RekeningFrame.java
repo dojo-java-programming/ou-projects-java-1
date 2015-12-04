@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
 /**
- * GUI-klasse voor één specifieke rekening
+ * GUI-klasse voor Ã©Ã©n specifieke rekening
  */
 public class RekeningFrame extends JFrame {
   
@@ -179,7 +179,7 @@ public class RekeningFrame extends JFrame {
   }
   
   /*
-   * Creëert en toont een instantie van deze klasse
+   * Creï¿½ert en toont een instantie van deze klasse
    */
   public static void main(String[] args) {
         RekeningFrame gui = new RekeningFrame();

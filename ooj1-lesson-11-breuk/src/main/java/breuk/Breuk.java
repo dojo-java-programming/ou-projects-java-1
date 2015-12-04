@@ -9,7 +9,7 @@ public class Breuk {
   private long teller = 0, noemer = 1;
   
   /*
-   * Creëert een nieuwe breuk.
+   * CreÃ«ert een nieuwe breuk.
    * Als teller of noemer niet aan de voorwaarde voldoet,
    * blijft teller 0 en noemer 1
    */
